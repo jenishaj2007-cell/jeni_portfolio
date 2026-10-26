@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 560" role="img" aria-labelledby="title description">
+  <title id="title">Python Certificate placeholder</title>
+  <desc id="description">Placeholder image. The original certificate file has not been provided.</desc>
+  <rect width="800" height="560" fill="#0b1120"/>
+  <rect x="32" y="32" width="736" height="496" rx="24" fill="#111c32" stroke="#2563eb" stroke-width="4"/>
+  <path d="M32 56a24 24 0 0 1 24-24h688a24 24 0 0 1 24 24v10H32z" fill="#f97316"/>
+  <text x="400" y="190" fill="#93c5fd" font-family="Arial, sans-serif" font-size="30" font-weight="700" text-anchor="middle">Python Certificate</text>
+  <text x="400" y="280" fill="#f8fafc" font-family="Arial, sans-serif" font-size="28" text-anchor="middle">Certificate file not provided</text>
+  <text x="400" y="330" fill="#cbd5e1" font-family="Arial, sans-serif" font-size="20" text-anchor="middle">Replace this placeholder with the original certificate image or PDF.</text>
+</svg>
