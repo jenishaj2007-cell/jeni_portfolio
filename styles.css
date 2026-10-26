@@ -865,7 +865,22 @@ h1, h2, h3, h4, h5, h6 {
 .certifications-action {
     display: flex;
     justify-content: center;
-    margin-bottom: 2rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-bottom: 2.5rem;
+}
+
+.unified-cert-btn {
+    background: linear-gradient(135deg, #2563eb, #06b6d4);
+    font-size: 0.95rem;
+    padding: 0.75rem 1.6rem;
+    box-shadow: 0 8px 24px rgba(37, 99, 235, 0.35);
+}
+
+.unified-cert-btn:hover {
+    background: linear-gradient(135deg, #1d4ed8, #0891b2);
+    box-shadow: 0 10px 30px rgba(6, 182, 212, 0.45);
+    transform: translateY(-3px);
 }
 
 .update-certifications-btn {
@@ -1224,6 +1239,20 @@ h1, h2, h3, h4, h5, h6 {
     background-clip: text;
     opacity: 0.8;
     z-index: 2;
+}
+
+.project-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top center;
+    transition: var(--transition);
+    z-index: 2;
+    display: block;
+}
+
+.project-card:hover .project-img {
+    transform: scale(1.06);
 }
 
 .project-content {
